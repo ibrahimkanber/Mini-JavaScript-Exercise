@@ -1,0 +1,23 @@
+div {
+    display: inline-block;
+    margin: 5px;
+}
+
+div div div {
+    display: block;
+    color: red;
+}
+
+div div img {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+div div div:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+div div {
+    margin-left: 15px
+}
