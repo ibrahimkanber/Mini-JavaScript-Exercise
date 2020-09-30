@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container{
+    width: 200px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color:yellow;
+    border: 1px solid red;
+}
+
+.toDo{
+    background-color: red;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding:0.3rem ;
+    font-size:20px ;
+    order:1;
+    
+   
+}
+
+#param{
+    color:white;
+}
+
+.deleteAll{
+    width:13rem ;
+    
+}
+
+
+
